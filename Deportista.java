@@ -9,7 +9,7 @@ public class Deportista extends Individuo{
 		super();
 	}
 	
-	//Hola
+	//Hola como estan
 	public Deportista(String nombre,String apellidopaterno, String apellidomaterno,
 					  String telefonocasa,String telefonocelular,String email,String genero,String fechanacimiento, String deporte){
 		super(nombre,apellidopaterno,apellidomaterno,telefonocasa,telefonocelular,email);					
