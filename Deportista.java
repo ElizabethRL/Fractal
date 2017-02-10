@@ -14,7 +14,7 @@ public class Deportista extends Individuo{
 					  String telefonocasa,String telefonocelular,String email,String genero,String fechanacimiento, String deporte){
 		super(nombre,apellidopaterno,apellidomaterno,telefonocasa,telefonocelular,email);					
 		this.genero=genero;
-		this.fechanac=fechanac;
+		this.fechanacimiento=fechanacimiento;
 		this.deporte=deporte;
 	}
 	
@@ -39,6 +39,6 @@ public class Deportista extends Individuo{
 	}
 	
 	public String getFechaNac(){
-		return fechanacimiento
+		return fechanacimiento;
 	}
 } 
